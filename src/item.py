@@ -1,5 +1,3 @@
-# Implement a class to hold room information. This should have name and
-# description attributes.
 from item import Item
 
 class Room:
@@ -25,4 +23,4 @@ class Room:
         return (F"Name: {self.name}, Description: {self.description}, Items: {str(self.items)}")
 
     def __str__ (self):
-        return (F"Name: {self.name}, Description: {self.description}, Items: {str(self.items)}")
+        return (F"Name: {self.name}, Description: {self.description}, Items: {str(self.items)}") 
